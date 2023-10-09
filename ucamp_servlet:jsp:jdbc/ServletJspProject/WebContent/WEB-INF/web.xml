@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>ServletJspProject</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<context-param>
+		<param-name>catalogFileName</param-name>
+		<param-value>C:\WEB_DEV\workspace\WEB_LAB\doc\text.txt</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>myName</param-name>
+		<param-value>홍길동</param-value>
+	</context-param>
+
+	<!-- JDBC Context-param -->
+	<context-param>
+		<param-name>SystemName</param-name>
+		<param-value>Servlet and JSP System</param-value>
+	</context-param>
+	<context-param>
+		<param-name>jdbcDriver</param-name>
+		<param-value>org.mariadb.jdbc.Driver</param-value>
+	</context-param>
+	<context-param>
+		<param-name>jdbcURL</param-name>
+		<param-value>jdbc:mariadb://127.0.0.1:3306/boot_db</param-value>
+	</context-param>
+	<context-param>
+		<param-name>jdbcUserID</param-name>
+		<param-value>boot</param-value>
+	</context-param>
+	<context-param>
+		<param-name>jdbcPassword</param-name>
+		<param-value>boot</param-value>
+	</context-param>
+	<context-param>
+		<param-name>initNumConnection</param-name>
+		<param-value>3</param-value>
+	</context-param>
+	<context-param>
+		<param-name>maxNumConnection</param-name>
+		<param-value>5</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>chap06.ProductListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>chap06.ProductListListener</listener-class>
+	</listener>
+
+	<listener>
+		<listener-class>common.InitializeConnectionPool</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>Hello4</servlet-name>
+		<servlet-class>chap04.HelloServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Hello5</servlet-name>
+		<servlet-class>chap05.HelloServlet</servlet-class>
+		<init-param>
+			<param-name>greetingText</param-name>
+			<param-value>Hello5</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Hello6</servlet-name>
+		<servlet-class>chap06.HelloServlet</servlet-class>
+		<init-param>
+			<param-name>greetingText</param-name>
+			<param-value>Hello6</param-value>
+		</init-param>
+	</servlet>
+	<servlet>
+		<servlet-name>Product</servlet-name>
+		<servlet-class>chap06.ProductServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Order</servlet-name>
+		<servlet-class>chap06.OrderServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>chap07.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Information</servlet-name>
+		<servlet-class>chap07.InformationServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Save</servlet-name>
+		<servlet-class>chap07.SaveServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Basket</servlet-name>
+		<servlet-class>chap07.BasketServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BasketCookie</servlet-name>
+		<servlet-class>chap07.cookie.BasketCookieServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SaveCookie</servlet-name>
+		<servlet-class>chap07.cookie.SaveCookieServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Welcome</servlet-name>
+		<servlet-class>chap08.WelcomeServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Enroll8</servlet-name>
+		<servlet-class>chap08.EnrollServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Enroll9</servlet-name>
+		<servlet-class>chap09.EnrollServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Enroll10</servlet-name>
+		<servlet-class>chap10.controller.EnrollServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Enroll12</servlet-name>
+		<servlet-class>chap12.controller.EnrollServlet</servlet-class>
+	</servlet>
+	<!-- Servlet Mapping -->
+	<servlet-mapping>
+		<servlet-name>Hello4</servlet-name>
+		<url-pattern>/greeting4</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Hello5</servlet-name>
+		<url-pattern>/greeting5</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Hello6</servlet-name>
+		<url-pattern>/greeting6</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Product</servlet-name>
+		<url-pattern>/product</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Order</servlet-name>
+		<url-pattern>/order</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Information</servlet-name>
+		<url-pattern>/info</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Basket</servlet-name>
+		<url-pattern>/basket</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>BasketCookie</servlet-name>
+		<url-pattern>/basketCookie</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>SaveCookie</servlet-name>
+		<url-pattern>/saveCookie</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Welcome</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Enroll8</servlet-name>
+		<url-pattern>/enroll8</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Enroll9</servlet-name>
+		<url-pattern>/enroll9</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Enroll10</servlet-name>
+		<url-pattern>/enroll10</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>Enroll12</servlet-name>
+		<url-pattern>/enroll12</url-pattern>
+	</servlet-mapping>
+</web-app>
