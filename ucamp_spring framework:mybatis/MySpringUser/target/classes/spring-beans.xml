@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<!-- StringPrinter 클래스를 Spring Bean으로 등록 -->
+	<!-- getBean() 메서드 사용시 bean의 id 사용  -->
+	<bean id="strPrinter" class="myspring.di.xml.StringPrinter" />
+	
+	<!-- ConsolePrinter 클래스를 Spring Bean으로 등록 -->
+	<!-- 인터페이스는 작성할 필요X -->
+	<bean id="conPrinter" class="myspring.di.xml.ConsolePrinter" />
+
+	<!-- Hello 클래스를 Spring Bean으로 등록 -->
+	<bean id="hello" class="myspring.di.xml.Hello" scope="singleton">
+		<property name="name" value="스프링"/>
+		<!-- value는 setName의 값으로 들어감 -->
+		<property name="printer" ref="strPrinter" />
+	</bean>
+	
+	<bean id="helloC" class="myspring.di.xml.Hello">
+		<!--  Constructor Injection -->
+		<constructor-arg index="0" value="생성자"/>
+		<constructor-arg index="1" ref="conPrinter"/>
+		<property name="names">
+			<list>
+				<value>Spring Framework</value>
+				<value>Spring Boot</value>
+				<value>Spring Cloud</value>
+			</list>
+		</property>
+	</bean>
+	
+</beans>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="myspring.customer.dao.mapper.CustomerMapper">
+	<!-- 조회 쿼리는 id를 이용하여 실행 -->
+	<!-- parameter에 들어가는 값이 {value} 변수로 들어옴  -->
+	<select id="selectCustomerById" parameterType="string" resultType="Customer"> 
+		select * from customer where name=#{value}
+	</select>
+
+	<select id="selectCustomerList" resultType="Customer">
+		select * from customer order by id
+	</select>
+	
+</mapper>
+ 
+ 
+ 
+ 
+ 
