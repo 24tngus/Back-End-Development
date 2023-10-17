@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>폼테스트 페이지</title>
+</head>
+<body> 
+ 여러 Form Tag<br>
+<form action='/servlet/chap03.FormTestServlet' method=get name='formtest'>
+ 취미를 선택하세요.<br>
+ <input type=checkbox  name=hobby value='sleep' checked>잠자기
+ <input type=checkbox  name=hobby value='eat'>먹기
+ <input type=checkbox  name=hobby value='tv'>TV <br><br>
+ 성별을 선택하세요<br>
+ <input type=radio name=gender value='M' checked>남
+ <input type=radio name=gender value='F'>여<br><br>
+ 거주지역: &nbsp; 
+ <select name='region'>
+     <option value='seoul'> 서울
+     <option value='kyungki' selected> 경기
+     <option value='inchoen'> 인천
+ </select> <br><br>
+ 기타의견<br>
+ <textarea name='etc' cols='10' rows='3' ></textarea><br><br>
+ <input type=hidden name='lastdata' value='last'>
+ <input type=submit value="확인"> 
+ <input type=reset value="초기화">
+</form>
+</body>

@@ -1,0 +1,121 @@
+<HTML>
+<HEAD>
+    <TITLE>회원등록</TITLE>
+</HEAD>
+<BODY bgcolor=#ffffff onload=document.frmEnroll.tfMemberID.focus()>
+    <CENTER>
+    <FORM name="frmEnroll" action="/enroll" method="post">
+    <TABLE border="0" cellpadding= cellspacing= width="500" bgcolor="#ffffff">
+        <TR>
+            <TH colspan=2 bgcolor=#ffffff>&nbsp</TH>
+        </TR>
+        <TR>
+            <TH colspan=2 bgcolor=#eeeeff>회원 가입</TH>
+        </TR>
+        <TR>
+            <TH colspan=2 bgcolor=#ffffff>&nbsp</TH>
+        </TR>
+        <TR>
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>ID :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type="text" name="tfMemberID" size="15" maxlength=12>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right"> 
+                <B>이름 :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff"> 
+                <INPUT type="text" name="tfName" size="15" maxlength=20>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>암호 :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type="password" name="tfPassword" size="15" maxlength=8>  
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>주 소 :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type="text" name="tfAddress" size="50" maxlength=48>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>전화번호 :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff"> 
+                <INPUT type="text" name="tfPhone" size="15" maxlength=14>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>본인확인 힌트 :</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <SELECT name=selPasswordQuestion>
+                    <OPTION value="태어난 고향은?">태어난 고향은?</OPTION>
+                    <OPTION value="출신 초등학교 이름은?">출신 초등학교 이름은?</OPTION>
+                    <OPTION value="배우자의 이름은?">배우자의 이름은?</OPTION>
+                    <OPTION value="가장 친한 친구 이름은?">가장 친한 친구 이름은?</OPTION>
+                    <OPTION value="가장 좋아하는 연예인은?">가장 좋아하는 연예인은?</OPTION>
+                    <OPTION value="가장 좋아하는 색상은?">가장 좋아하는 색상은?</OPTION>
+                </SELECT>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>본인확인 답변:</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type="text" name="tfPasswordAnswer" size="30" maxlength=28>
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>결혼 여부:</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type=radio name="rdMarriage" value=Y checked>기혼
+                <INPUT type=radio name="rdMarriage" value=N>미혼
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>취미:</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <INPUT type=checkbox name="chkHobby" value=컴퓨터>컴퓨터
+                <INPUT type=checkbox name="chkHobby" value=문화>문화
+                <INPUT type=checkbox name="chkHobby" value=스포츠>스포츠
+                <INPUT type=checkbox name="chkHobby" value=기타>기타
+            </TD>
+        </TR>
+        <TR> 
+            <TD bgcolor="#eeeeff" width="130" align="right">
+                <B>비고:</B>&nbsp;
+            </TD>
+            <TD bgcolor="#feeeff">
+                <TEXTAREA name=etc rows=3 columns=100></TEXTAREA>
+            </TD>
+        </TR>
+        <TR>
+            <TD colspan=2 align="CENTER">
+                <INPUT type=submit value="작성완료">
+                <INPUT type=reset value="다시쓰기">
+            </TD>
+        </TR>
+    </TABLE>
+    </FORM>
+    Copyright ChatStar Corp. All rights reserved. <BR>
+    </CENTER>
+</BODY>
+</HTML>
+
