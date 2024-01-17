@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<meta charset="UTF-8">
+<body>
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
+        <th>entryDate</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+
+    <tr th:each="customer, customerStat : ${customer}">
+        <td th:text="${customerStat.count}"></td> <!-- id 연속적인 수로 출력 -->
+        <td th:text="${customer.name}"></td>
+        <td th:text="${customer.email}"></td>
+        <td th:text="${customer.age}"></td>
+        <td th:test="${customer.entryDate}"></td>
+<!--        <td th:text="${#temporals.format(customer.entryDate, 'yyyy-MM-dd hh:mm')}"></td>-->
+        <td><a th:href="@{/cpage/edit/{id}(id=${customer.id})}">Update</a></td>
+        <td><a th:href="@{/cpage/delete/{id}(id=${customer.id})}">Delete</a></td>
+    </tr>
+</table>
+<p><a href="/cpage/signup">Insert</a></p>
+</body>
+</html>

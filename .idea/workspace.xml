@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e079100-af53-447a-9df8-79c1fa6fbc64" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/MyMission.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MyMission.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MySpringBoot3.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MySpringBoot3.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/MySpringBoot3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/MySpringBoot3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/advice/DefaultExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/advice/DefaultExceptionAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/ProdConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/ProdConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/TestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/TestConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserBasicRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserBasicRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/controller/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserReqForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserReqForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserResDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/dto/UserResDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/exception/SystemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/exception/SystemException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/repository/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/runner/DatabaseRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/runner/DatabaseRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/runner/MyRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/runner/MyRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/java/com/basic/myspringboot/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/mobile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/mobile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/add-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/add-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/leaf.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/leaf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/update-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/main/resources/templates/update-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/test/java/com/basic/myspringboot/MySpringBoot3ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/src/test/java/com/basic/myspringboot/MySpringBoot3ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot/vegan_maven.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3 오후 9.20.25.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/src/main/java/com/basic/myspringboot/MySpringBoot3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBoot3/src/test/java/com/basic/myspringboot/MySpringBoot3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBootAdmin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBootAdmin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/MySpringBootAdmin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/MySpringBootAdmin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/SpringBoot_Gradle-master/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/SpringBoot_Gradle-master/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ucamp_spring boot/미션/BackEnd미션4.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ucamp_spring boot/미션/BackEnd미션4.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2Wtbj8buxyivzKl6kA7gXrPjQmK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/soohykim/Desktop/BE",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e079100-af53-447a-9df8-79c1fa6fbc64" name="Changes" comment="" />
+      <created>1697554955541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697554955541</updated>
+      <workItem from="1697554956676" duration="1000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
